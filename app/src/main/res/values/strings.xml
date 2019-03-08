@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">lesson7.task.fragment</string>
+    <string name="app_name">lesson13.task.aidl.client</string>
     <string name="my_button_text">CREATE FRAGMENT</string>
 
     <!-- TODO: Remove or change this placeholder text -->
