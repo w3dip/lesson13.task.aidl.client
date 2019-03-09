@@ -6,20 +6,18 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".FragmentB">
-
     <EditText
         android:id="@+id/myEditText"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_weight="2"
-        android:text="Example value"/>
+        android:gravity="bottom"
+        tools:text="Example value"/>
     <Button
         android:id="@+id/myButton"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_weight="1"
         android:text="@string/my_button_text" />
-
-
 </LinearLayout>
