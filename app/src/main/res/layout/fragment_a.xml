@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".FragmentA">
 
-    <EditText
-        android:id="@+id/myEditText"
+    <TextView
+        android:id="@+id/logOutput"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Example value"/>
+        tools:text="My value"/>
 
 </FrameLayout>
